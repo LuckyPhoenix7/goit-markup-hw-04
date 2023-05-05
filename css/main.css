@@ -365,30 +365,32 @@ address {
 }
 
 .customers-list {
-  width: calc((100% - 120px) / 6);
-
   display: flex;
   gap: 24px;
 }
 
 .customers-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
   height: 88px;
 
   border: 1px solid #8e8f99;
   border-radius: 4px;
 
-  fill: var(--color-light-slate);
+  color: var(--color-light-slate);
 }
 
 .customers-icon {
   margin: 16px 32px;
+  fill: currentColor;
 }
 
 .customers-link:hover,
 .customers-link:focus {
-  border-color: var(--color-iris);
-  fill: var(--color-iris);
+  border-color: var(--color-ocean);
+  color: var(--color-ocean);
 }
 
 /* Footer section */
