@@ -356,7 +356,7 @@ address {
 
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.1
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
@@ -520,18 +520,16 @@ address {
 }
 
 .portfolio-card {
-  background: var(--color-white);
-
   display: block;
   width: calc((100% - 48px) / 3);
 
+  background: var(--color-white);
   border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card:hover,
 .portfolio-card:focus {
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
