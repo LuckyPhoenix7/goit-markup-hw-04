@@ -258,7 +258,9 @@ address {
 .about-icons {
   background-color: var(--color-cloud);
 
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 112px;
   border-radius: 4px;
@@ -316,13 +318,14 @@ address {
 }
 
 .team-info {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-socials {
   display: flex;
   gap: 24px;
   margin-top: 12px;
+  justify-content: center;
 }
 
 .team-socials-link {
@@ -337,20 +340,39 @@ address {
   justify-content: center;
 }
 
+.team-socials-link:hover,
+.team-socials-link:focus {
+  background-color: #404bbf;
+}
+
 /* Customers section */
 
 .customers {
   padding: 120px 0;
 }
 
+.customers-title {
+  color: var(--color-navy-blue);
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+
+  margin-bottom: 72px;
+}
+
 .customers-list {
+  width: calc((100% - 120px) / 6);
+
   display: flex;
   gap: 24px;
 }
 
 .customers-link {
   display: block;
-  width: 168px;
   height: 88px;
 
   border: 1px solid #8e8f99;
