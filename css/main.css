@@ -402,7 +402,6 @@ address {
 .footer-item {
   display: flex;
   align-items: baseline;
-  gap: 120px;
   padding: 100px 0;
 }
 
@@ -428,7 +427,7 @@ address {
   color: var(--color-cloud);
 
   width: 264px;
-
+  margin-right: 120px;
   text-align: justify;
 }
 
@@ -447,7 +446,7 @@ address {
 }
 
 .footer-socials-link {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #ffffff1a;
   fill: var(--color-cloud);
 
   display: flex;
