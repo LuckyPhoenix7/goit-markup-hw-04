@@ -377,7 +377,7 @@ address {
 
 .footer-item {
   display: flex;
-  margin: 0 auto;
+  align-items: baseline;
   gap: 120px;
   padding: 100px 0;
 }
@@ -410,7 +410,7 @@ address {
 
 .footer-socials-text {
   color: var(--color-white);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
