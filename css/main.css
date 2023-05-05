@@ -133,7 +133,7 @@ button {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: 0 auto;
+  margin-right: 0;
   gap: 40px;
 }
 
@@ -372,7 +372,6 @@ address {
 
 .footer-item {
   display: flex;
-  align-items: top;
   margin: 0 auto;
   gap: 120px;
   padding: 100px 0;
